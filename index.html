@@ -1,36 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ingreso de Datos de Clientes</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="container">
-            <h1>Ingresar datos del clientes</h1>
-            <div class="form-group">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" required>
-            </div>
-            <form id="cliente-form">
-                <div class="form-group">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono">
-                </div>
-                <div class="form-group">
-                    <button type="submit">Guardar</button>
-                </div>
-            </form>
-            <div id="mensaje"></div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Datos de Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ingresar datos del clientes</h1>
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
         </div>
-    </body>
+
+        <form id="cliente-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Fecha de nacimiento:</label>
+                <input type="date" id="fecha" name="fecha">
+            </div>
+
+            <div class="form-group">
+                <label for="genero">Genero:</label>
+                <input type="gene" id="genero" name="genero">
+            </div>
+
+            <div class="form-group">
+                <label for="ocupacion">Ocupacion:</label>
+                <input type="ocu" id="ocupacion" name="ocupacion">
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Guardar</button>
+            </div>
+
+        </form>
+        <div id="mensaje"></div>
+    </div>
+</body>
+
 </html>
